@@ -8,9 +8,9 @@
 
 * Cluster - 集群
 * Connection - 连接
-* [Geo - 地理位置](Geo/README.md)
+* [Geo - 地理位置](commands/Geo/README.md)
   * 增加
-    * [GEOADD - 添加/更新地理位置坐标](Geo/geoadd.md)
+    * [GEOADD - 添加/更新地理位置坐标](commands/Geo/geoadd.md)
   * 删除
     * GEOREM(ZREM) - 删除地理位置坐标
   * 修改
