@@ -8,7 +8,19 @@
 
 * Cluster - 集群
 * Connection - 连接
-* GEO - 地理位置
+* [Geo - 地理位置](Geo/README.md)
+  * 增加
+    * [GEOADD - 添加/更新地理位置坐标](Geo/geoadd.md)
+  * 删除
+    * GEOREM(ZREM) - 删除地理位置坐标
+  * 修改
+  * 查询
+    * GEOPOS - 获取地理位置坐标
+    * GEOHASH - 获取地址位置HASH值
+    * GEODIST - 获取两个地址位置距离
+    * GEORADIUS - 获取指定范围元素(指定经纬度作为中间点)
+    * GEORADIUSBYMEMBER - 获取指定范围元素(已存储地理位置作为中间点)
+  * 其他
 * Hashes - 哈希
 * HyperLogLog - xx
 * Keys - 键
@@ -19,7 +31,7 @@
 * Sets - 集合
 * Sorted Sets(ZSets) - 有序集合
   * 增加
-    * ZADD - 添加元素
+    * ZADD - 添加/更新元素
   * 删除
     * ZREM - 删除指定元素
     * ZREMRANGEBYRANK - 按排名删除元素
