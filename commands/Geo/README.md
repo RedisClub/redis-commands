@@ -2,8 +2,8 @@
 
 ## 实现方案
 
-1. 使用 GeoHash 进行地理位置坐标转换；
-2. 使用有序集合（Sorted Sets）存储转换后的 GeoHash。
+* 使用 GeoHash 进行地理位置坐标转换；
+* 使用有序集合（Sorted Sets）存储转换后的 GeoHash。
 
 ## 经纬度
 

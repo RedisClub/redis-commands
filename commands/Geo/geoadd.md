@@ -1,4 +1,4 @@
-## GEOADD
+## [GEOADD](https://redis.io/commands/geoadd)
 
 GEOADD key longitude latitude member [longitude latitude member ...]
 
@@ -16,7 +16,7 @@ GEOADD key longitude latitude member [longitude latitude member ...]
 
 当用户尝试输入一个超出范围的经度或者纬度时， ``GEOADD`` 命令将返回一个错误。
 
-**注解**： Geo 地理位置坐标存储在有序集合， 所以没有 ``GEODEL``/``GEODEL``　这种删除命令， 因为可以使用 ZREM 进行删除。
+**注解**： Geo 地理位置坐标存储在有序集合， 所以没有 ``GEODEL``/``GEODEL`` 这种删除命令， 因为可以使用 ``ZREM`` 进行删除。
 
 ## 返回值
 

@@ -42,3 +42,7 @@
   * 其他
 * Strings - 字符串
 * Transactions - 事务
+
+## 命令文档监测服务
+
+* 监测对象 - https://redis.io/commands
