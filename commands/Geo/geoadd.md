@@ -1,4 +1,4 @@
-## [GEOADD](https://redis.io/commands/geoadd)
+# [GEOADD](https://redis.io/commands/geoadd)
 
 GEOADD key longitude latitude member [longitude latitude member ...]
 
