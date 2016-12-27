@@ -10,10 +10,11 @@
 * Connection - 连接
 * [Geo - 地理位置](commands/Geo/README.md)
   * 增加
-    * [GEOADD - 添加/更新地理位置坐标](commands/Geo/geoadd.md)
+    * [GEOADD - 添加/修改地理位置坐标](commands/Geo/geoadd.md)
   * 删除
     * GEOREM(ZREM) - 删除地理位置坐标
   * 修改
+    * [GEOADD - 添加/修改地理位置坐标](commands/Geo/geoadd.md)
   * 查询
     * GEOPOS - 获取地理位置坐标
     * GEOHASH - 获取地址位置HASH值
@@ -48,6 +49,7 @@
 * Lock - 锁
 * Signin - 签到
 * Verification Code - 验证码
+* Graphic Verification Code - 图形验证码
 * Active Users - 活跃用户
 
 ## 专题

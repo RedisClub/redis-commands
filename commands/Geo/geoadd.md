@@ -40,10 +40,10 @@ $ redis-cli
    4) 1) "0.00000268220901489"  -- 精度
       2) "0.00000126736058093"  -- 纬度
 
-# 更新地理位置坐标
+# 修改地理位置坐标
 
 127.0.0.1:6379> GEOADD jscities 118.7964667635 32.0583898428 nanjing
-(integer) 0  -- 更新地理位置坐标
+(integer) 0  -- 修改地理位置坐标
 127.0.0.1:6379> GEORADIUS jscities 0 0 +inf km WITHDIST WITHCOORD WITHHASH
 1) 1) "nanjing"  -- Member
    2) "12690.3180"  -- 与 (0, 0) 的距离， 单位千米
