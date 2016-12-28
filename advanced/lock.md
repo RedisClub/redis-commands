@@ -6,7 +6,7 @@
   * def set(self, name, value, ex=None, px=None, nx=False, xx=False):
   * def setex(self, name, time, value):
 
-## RedisExtensions 封装
+## RedisExtensions
 
 * 相关函数
   * def acquire_lock(self, lockname, ex=None, acquire_timeout=10):
