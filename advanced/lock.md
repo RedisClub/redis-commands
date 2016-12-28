@@ -1,9 +1,10 @@
 # Lock
 
-## 实现方案
+## Redis
 
-* def set(self, name, value, ex=None, px=None, nx=False, xx=False):
-* def setex(self, name, time, value):
+* 核心函数
+  * def set(self, name, value, ex=None, px=None, nx=False, xx=False):
+  * def setex(self, name, time, value):
 
 ## RedisExtensions 封装
 
