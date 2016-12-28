@@ -46,11 +46,11 @@
 
 ## 进阶
 
-* Lock - 锁
+* [Lock - 锁](advanced/lock.md)
 * Signin - 签到
 * Verification Code - 验证码
 * Graphic Verification Code - 图形验证码
-* Active Users - 活跃用户
+* [Active Users - 活跃用户](advanced/activeusers.md)
 
 ## 专题
 
