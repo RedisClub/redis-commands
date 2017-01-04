@@ -21,6 +21,7 @@
     * GEODIST - 获取两个地址位置距离
     * GEORADIUS - 获取指定范围元素(指定经纬度作为中间点)
     * GEORADIUSBYMEMBER - 获取指定范围元素(已存储地理位置作为中间点)
+    * [GEOMEMBERS(ZRANGE) - 获取地理位置列表](commands/Geo/geomembers.md)
   * 其他
 * Hashes - 哈希
 * HyperLogLog - xx

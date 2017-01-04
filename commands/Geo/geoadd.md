@@ -25,9 +25,10 @@ GEOADD key longitude latitude member [longitude latitude member ...]
 ## 示例
 
 ```shell
+$ redis-cli
+
 # 添加地理位置坐标
 
-$ redis-cli
 127.0.0.1:6379> GEOADD jscities 0 0 nanjing
 (integer) 1  -- 添加地理位置坐标
 127.0.0.1:6379> ZRANGE jscities 0 -1 WITHSCORES
