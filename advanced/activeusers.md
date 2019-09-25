@@ -7,7 +7,7 @@
     ```python
     ResponseError: bit offset is not an integer or out of range
     ```
-    * ``offset`` 必须为整型， 可以使用数据表中用户的唯一自增字段 ``id``。
+    * ``offset`` 必须为整型，可以使用数据表中用户的唯一自增字段 ``id``。
   * def bitcount(self, key, start=None, end=None):
 
 * 示例

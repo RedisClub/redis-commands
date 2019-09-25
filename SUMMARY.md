@@ -43,6 +43,13 @@
   * 查询
   * 其他
 * Strings - 字符串
+  * INCR
+    * INCR & EXPIRE
+    * INCR & QUOTA
+    * INCR & CMP
+  * SET
+    * SET & JSON
+      * setjson/setexjson/setnxjson/getjson
 * Transactions - 事务
 
 ## 进阶
@@ -50,7 +57,9 @@
 * Redis
   * [Active Users - 活跃用户](advanced/activeusers.md)
 * RedisExtensions
+  * Counter - 计数
   * [Lock - 锁](advanced/lock.md)
+  * Quota - 限额
   * Signin - 签到
   * Token - 票据
   * Verification Code - 验证码
